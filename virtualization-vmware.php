@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<title>CostaCloud | Application Virtualization</title>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/plugins/bxslider/jquery.bxslider.css">
+<!-- CSS Theme -->
+<link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
+<!-- CSS Customization -->
+<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<div class="wrapper">
+  <!--=== Header ===--><!-- #BeginLibraryItem "/CostaCloud/header.lbi" -->
+    
+    <!--=== Header ===-->    
+    <div class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <!-- Topbar Navigation -->
+                <ul class="loginbar pull-right">
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <a>Languages</a>
+                        <ul class="lenguages">
+                            <li class="active">
+                                <a href="#">English <i class="fa fa-check"></i></a></li>
+                          </ul>
+                    </li>
+                    <li class="topbar-devider"></li>   
+                    <li><a href="blog/index.php">Blog</a></li>  
+                    <li class="topbar-devider"></li>   
+                    <li><a href="page-contact.php">Contact Us</a></li>   
+                  </ul>
+                <!-- End Topbar Navigation -->
+            </div>
+        </div>
+        <!-- End Topbar -->
+        
+        <!-- Navbar -->
+        <div class="navbar navbar-default" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"> <span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span> </button>
+            <a class="navbar-brand" href="index.html"> <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo"> </a> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+              <ul class="nav navbar-nav">
+                <!-- Cloud Computing -->
+                <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"> Cloud </a>
+                    <ul class="dropdown-menu">
+                      <!-- SaaS -->
+                      <li> <a href="cloud-software-as-a-service.html"><i class="fa fa-bars"></i>Software as a Service (SaaS)</a> </li>
+                      <!-- End SaaS -->
+                      <!-- DaaS -->
+                      <li class="dropdown-submenu"> <a href="cloud-desktop-virtualization.html"><i class="fa fa-bars"></i>Desktop as a Service (DaaS)</a> 
+                    	  <ul class="dropdown-menu">
+								 <li> <a href="virtualization-vmware.php?svpage=products_dvm_horizon6&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMware Horizon 6 (with View)</a> </li>
+                                 <li> <a href="virtualization-vmware.php?svpage=products_dvm_mirage&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare Mirage</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dvm_horizon-daas&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare Horizon Air Desktops and Horizon Air Apps</a> </li>
+                                 <li> <a href="virtualization-vmware.php?svpage=products_dvm_horizon-flex&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare Horizon FLEX</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dvm_workspace&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare Workspace</a> </li>
+							</ul>
+                      </li>
+                      <!-- End DaaS -->
+                      <!-- ITaaS -->
+                      <li> <a href="cloud-it-as-a-service.html"><i class="fa fa-bars"></i>IT As a Service (ITaaS)</a> </li>
+                      <!-- End ITaaS -->
+                      <!-- SDDC -->
+                      <li class="dropdown-submenu"> <a href="cloud-software-defined-data-center.html"><i class="fa fa-bars"></i>Software Defined Data Center</a> 
+                      	    <ul class="dropdown-menu">
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vCloud Suite</a> </li>
+                                 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Suite</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Operations Insight</a> </li>
+                                 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Operations</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Log Insight</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Automation</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Orchestrator</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Business</a> </li>
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vcloud&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vRealize Code Stream</a> </li>
+							</ul>
+                      </li>
+                      <!-- End ITaaS -->
+                      <!-- Software Defined Storage -->
+                      <li> <a href="virtualization-storage.html"><i class="fa fa-bars"></i>Software Defined Storage</a> 
+                       <ul class="dropdown-menu">
+								 <li> <a href="virtualization-vmware.php?svpage=virtual_san&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vSAN</a> </li>
+							</ul>
+                      </li>
+                      <!-- End Software Defined Storage -->
+                      <!-- Softwre Defined Network -->
+                      <li class="dropdown-submenu"> <a href="cloud-sdn.html"><i class="fa fa-bars"></i>Software Defined Network</a> 
+                      		<ul class="dropdown-menu">
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_nsx&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMware NSX</a> </li>
+                             </ul>
+                      </li>
+                      <!-- End Softwre Defined Network -->
+                    </ul>
+                </li>
+                <!-- End Cloud Computing -->
+               
+                <!-- Virtualization -->
+                <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Virtualization</a>
+                    <ul class="dropdown-menu">
+                      <!-- VMWare -->
+                       <li class="dropdown-submenu"> <a href="virtualization-server.html"><i class="fa fa-bars"></i>Server Virtualization</a> 
+                     		 <ul class="dropdown-menu">
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vsphere&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vSphere</a> </li>
+							</ul>
+                      </li>
+                      <!-- End VMWare -->
+                      <!-- Citrix -->
+                      <li class="dropdown-submenu"> <a href="virtualization-network.html"><i class="fa fa-bars"></i>Network Virtualization</a> 
+                 	 <ul class="dropdown-menu">
+								 <li> <a href="virtualization-vmware.php?svpage=products_dcci_vsphere&sid=336d63663c8aa6e73b3b3e04b5f8fea4">VMWare vSphere</a> </li>
+							</ul>
+                      
+                      </li>
+                      <!-- End Citrix -->
+                      <!-- HyperV -->
+                      <li> <a href="virtualization-storage.html"><i class="fa fa-bars"></i>Storage Virtualization</a> </li>
+                      <!-- End HyperV -->
+                      <!-- KVM -->
+                      <li> <a href="virtualization-security.html"><i class="fa fa-bars"></i>Security Virtualization</a> </li>
+                      <!-- End KVM -->
+                       <!-- Application Virtualization -->
+                      <li> <a href="virtualization-app.html"><i class="fa fa-bars"></i>Application Virtualization</a> </li>
+                      <!-- End Application Virtualization -->
+                    </ul>
+                </li>
+                <!-- End  Virtulization-->
+
+                <!-- Content Management -->
+                <li class="dropdown"> <a href="document-management-system.html" class="dropdown-toggle" data-toggle="dropdown"> Content Management </a>
+                    <ul class="dropdown-menu">
+                      <!-- Documentum -->
+                      <li> <a href="document-management-system.html"><i class="fa fa-bars"></i>Documentum</a> </li>
+					  <li> <a href="mobile-documentum.html"><i class="fa fa-bars"></i>Mobile Documentum</a> </li>
+					  <li> <a href="life-s-cience-document-management.html"><i class="fa fa-bars"></i>Life Science Document Management</a> </li>
+					  <li> <a href="alfreco-service.html"><i class="fa fa-bars"></i>Alfreco Service</a> </li>
+                      <!-- End Documentum -->
+                      <!-- Sharepoint -->
+                      <li> <a href="document-management-system.html"><i class="fa fa-bars"></i>Sharepoint</a> </li>
+                      <!-- End Sharepoint -->
+                      <!-- Business Solutions -->
+                      <li class="dropdown-submenu"> <a href="document-management-system.html"><i class="fa fa-bars"></i>Business Solutions</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="document-management-system.html"><i class="fa fa-flask"></i>Customer On-boarding</a></li>
+                            <li><a href="document-management-system.html"><i class="fa fa-html5"></i>Procurement Automation</a></li>
+                            <li><a href="document-management-system.html"><i class="fa fa-bolt"></i>Health Records</a></li>
+                            <li><a href="document-management-system.html"><i class="fa fa-html5"></i>Automation Engineering Process</a></li>
+                            <li><a href="document-management-system.html"><i class="fa fa-bolt"></i>Government Process Automation</a></li>
+                          </ul>
+                      </li>
+                      <!-- End Business Solutions -->
+                    </ul>
+                </li>
+                <!-- End Content Management -->
+                <!-- Big Data -->
+                <li class="dropdown"> <a href="big-data-analaytics.html" class="dropdown-toggle" data-toggle="dropdown"> Business Analytics </a>
+                    <ul class="dropdown-menu">
+                      <!-- Typography -->
+                      <li> <a href="big-data-analaytics.html"><i class="fa fa-bars"></i>Internet of Things</a> </li>
+                      <!-- End Typography -->
+                      <!-- Dynamic Dashboards -->
+                      <li> <a href="big-data-analaytics.html"><i class="fa fa-bars"></i>Dynamic Dashboards</a> </li>
+                      <!-- End Dynamic Dashboards -->
+                      <!-- Advanced Automation Industry Solution -->
+                      <li> <a href="big-data-analaytics.html"><i class="fa fa-bars"></i>Advanced Automation Industry Solution</a> </li>
+                      <!-- End Advanced Automation Industry Solution -->
+                      <!-- Enterprise Reporting -->
+                      <li> <a href="big-data-analaytics.html"><i class="fa fa-bars"></i>Enterprise Reporting</a> </li>
+                      <!-- End Enterprise Reporting -->
+                      <!-- Big Data -->
+                      <li class="dropdown-submenu"> <a href="big-data-analaytics.html"><i class="fa fa-bars"></i>Big Data</a> </li>
+                      <!-- End Big Data -->
+                    </ul>
+                </li>
+                <!-- End Big Data -->
+                
+                               <!-- IT Services -->
+                <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"> IT Services </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="it-app-ha.html"><i class="fa fa-bars"></i>Business Continuity</a></li>
+					  <li><a href="it-high-avaialbility.html"><i class="fa fa-bars"></i>High Availability</a></li>
+                       <li><a href="it-app-ha.html"><i class="fa fa-bars"></i>Application High Avialability</a></li>
+                      <li><a href="it-disaster-recovery.html"><i class="fa fa-bars"></i>Disaster Recovery</a></li>
+                      <li><a href="it-replication.html"><i class="fa fa-bars"></i>Anti Virus Protection</a></li>
+                      <li><a href="it-replication.html"><i class="fa fa-bars"></i>IT Management Tools</a></li>
+                      <li><a href="it-replication.html"><i class="fa fa-bars"></i>Remote Network Configuration</a></li>
+                      <li><a href="it-replication.html"><i class="fa fa-bars"></i>Virtual Private Network (VPN)</a></li>
+                      <li><a href="it-replication.html"><i class="fa fa-bars"></i>Microsoft Exchange</a></li>
+                    </ul>
+                </li>
+                <!-- Ens IT Services -->
+                <!-- Search Block -->
+                <li> <i class="search fa fa-search search-btn"></i>
+                     <form name="actSearch" action="page_search.html" method="get">
+                      <div class="search-open">
+                        <input value="017859472478302369851:3rjzeekw1xc" name="cx" type="hidden"/>
+                        <input value="FORID:11" name="cof" type="hidden"/>
+                        <div class="input-group animated fadeInDown">
+                          <input type="text" class="form-control" name="s"/>
+                          <span class="input-group-btn">
+                          <button class="btn-u" type="button" id="search-b" onClick="javascript: submitform();">Go</button>
+                        </span> </div>
+                      </div>
+                    </form>
+                    <!-- Include the validator script-->
+                    <!--script src="http://www.javascript-coder.com/files/form-submit/gen_validatorv4.js" type="text/javascript"></script>
+                    <script type="text/javascript">var myformValidator = new Validator("actSearch");myformValidator.addValidation("s","req", "Please enter the value for query");</script-->
+                    <script type="text/javascript">function submitform() { if(document.actSearch.onsubmit()) { document.actSearch.submit(); } } </script>
+                </li>
+                <!-- End Search Block -->
+              </ul>
+            </div>
+            <!--/navbar-collapse-->
+          </div>
+        </div>
+        <!-- End Navbar -->
+       </div>
+<!--=== End Header ===-->
+
+
+
+
+
+
+
+<!-- #EndLibraryItem --><!--=== End Header ===-->
+  <!--=== Breadcrumbs ===-->
+  <div class="breadcrumbs">
+    <div class="container">
+      <h1 class="pull-left">VMWare</h1>
+      <ul class="pull-right breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Virtualization</a></li>
+        <li class="active">VMWare</li>
+      </ul>
+    </div>
+    <!--/container-->
+  </div>
+  <!--/breadcrumbs-->
+  <!--=== End Breadcrumbs ===-->
+  <!--=== Content Part ===-->
+  <div class="container content">
+    <div class="row portfolio-item margin-bottom-50">
+        <p align="justify">
+        <?php
+// Do not edit below this line
+// ---------------------------------------------------------------------------
+$SVQuerystring = "svgroup=vmware_showcase&";
+foreach (($_GET) as $SVGetKey => $SVGetValue) {
+  $SVQuerystring = $SVQuerystring.$SVGetKey."=".$SVGetValue."&";
+}
+$SVURL = "http://vmware.sharedvue.net/Sharedvue/pull/";
+$SVURL = $SVURL."?svhost=".$_SERVER["HTTP_HOST"];
+
+if (!empty($_SERVER["PHP_SELF"])) {
+  if ((isset($_SERVER['REDIRECT_URL'])) && (strpos($_SERVER['REDIRECT_URL'], $_SERVER['PHP_SELF']) === FALSE)) $SVURL = $SVURL . $_SERVER['REDIRECT_URL'];
+  else $SVURL = $SVURL . $_SERVER['PHP_SELF'];
+}
+else if (!empty($_SERVER['SCRIPT_NAME'])) {
+  if ((isset($_SERVER['REDIRECT_URL'])) && (strpos($_SERVER['REDIRECT_URL'], $_SERVER['SCRIPT_NAME']) === FALSE)) $SVURL = $SVURL . $_SERVER['REDIRECT_URL'];
+  else $SVURL = $SVURL . $_SERVER['SCRIPT_NAME'];
+}
+
+if (strlen($SVQuerystring) > 0) {
+  $SVURL = $SVURL.urlencode("?".$SVQuerystring);
+}
+
+if (function_exists('curl_init')) {
+  $SVCurl = curl_init();
+  curl_setopt($SVCurl, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($SVCurl, CURLOPT_URL, $SVURL);
+  $SVContent = curl_exec($SVCurl);
+  $SVHTTPStatusCode = curl_getinfo($SVCurl, CURLINFO_HTTP_CODE);
+  curl_close($SVCurl);
+}
+else {
+	$SVContent = file_get_contents($SVURL);
+	list($SVHTTPVersion,$SVHTTPStatusCode,$SVHTTPMsg) = explode(' ',$http_response_header[0], 3);
+}
+
+switch($SVHTTPStatusCode) {
+  case 200:
+    echo ($SVContent);
+    break;
+  default:
+    echo "<!-- SharedVue Output: Could not reach SharedVue server: $SVHTTPMsg ($SVHTTPStatusCode) -->";
+    break;
+}
+// ---------------------------------------------------------------------------
+?>
+        </p>
+        </div>
+      <!--/row-->
+    <div class="margin-bottom-20 clearfix"></div>
+    <!-- Recent Works -->
+    <div class="headline">
+      <h2>Recent Works</h2>
+    </div>
+    <div class="margin-bottom-40">
+      <ul id="list" class="bxslider1 recent-work">
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/2.jpg" alt="" /></em> <span> <strong>Desktop Virtualization</strong> <i>Get your Desktop in the Cloud</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/9.jpg" alt="" /></em> <span> <strong>Storage Virtualization</strong> <i>Responsive Bootstrap Template</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/4.jpg" alt="" /></em> <span> <strong>Network Virtualization</strong> <i>Pariatur prehe cliche reprehrit</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/5.jpg" alt="" /></em> <span> <strong>Food Truck Quinoa Nesciunt</strong> <i>Craft labore wes anderson cred</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/6.jpg" alt="" /></em> <span> <strong>Happy New Year</strong> <i>Anim pariatur cliche reprehenderit</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/7.jpg" alt="" /></em> <span> <strong>Award Winning Agency</strong> <i>Responsive Bootstrap Template</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/8.jpg" alt="" /></em> <span> <strong>Wolf Moon Officia</strong> <i>Pariatur prehe cliche reprehrit</i> </span> </a> </li>
+        <li> <a href="#"> <em class="overflow-hidden"><img src="assets/img/main/9.jpg" alt="" /></em> <span> <strong>Food Truck Quinoa Nesciunt</strong> <i>Craft labore wes anderson cred</i> </span> </a> </li>
+      </ul>
+    </div>
+    <!--/row-->
+    <!-- End Recent Works -->
+  </div>
+  <!--/container-->
+  <!--=== End Content Part ===-->
+  <!--=== Footer ===--><!-- #BeginLibraryItem "/CostaCloud/footer.lbi" -->
+
+<!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <a href="index.html"><img class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>
+                        <p>CostaCloud is a Registered Trade Mark of Appolo Computers Pvt. Ltd. Appolo Computers was established in 1986 and has an operating presence in 4 countries around the world.</p>
+                        <p>&nbsp;</p>    
+                    </div><!--/col-md-3-->
+                    <!-- End About -->
+
+                    <!-- Latest -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="posts">
+                            <div class="headline"><h2>Latest Posts</h2></div>
+                            <ul class="list-unstyled latest-list">
+                                <li>
+                                    <a href="#">Big Data Analytics for Automation Industry</a>
+                                    <small>Aug 5, 2014</small>                                </li>
+                                <li>
+                                    <a href="#">eSolutions for Government Process Management</a>
+                                    <small>July 23, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="#">Patient Records Management System</a>
+                                    <small>June 15, 2014</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--/col-md-3-->  
+                    <!-- End Latest --> 
+                    
+                    <!-- Link List -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="headline"><h2>Useful Links</h2></div>
+                        <ul class="list-unstyled link-list">
+                            <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="portfolio.html">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="jobs/index.php">Latest jobs</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="blog/index.php">Community</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="page-contact.php">Contact us</a><i class="fa fa-angle-right"></i></li>
+                        </ul>
+                    </div><!--/col-md-3-->
+                    <!-- End Link List -->                    
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img md-margin-bottom-40">
+                        <div class="headline"><h2>Contact Us</h2></div>                         
+                        <address class="md-margin-bottom-40">
+                        Appolo Computer Pvt. Ltd. <br/>
+                        404 Gedore House, 51-52 Nehru Place
+                <br />
+                            New Delhi, India 110019<br />
+                        	Phone: +91 8010 33 55 77<br />
+                            Fax: +91 (11) 41600665<br />
+                            Email: <a href="mailto:info@costacloud.com" class="">info@costacloud.com</a>
+                        </address>
+                        <address class="md-margin-bottom-40">
+                       	    Appolo Impex, LLC <br />
+							919 Black Oak Ct <br />
+							Gibsonia, PA 15044 <br />
+							United States <br />
+							Phone: +1 6266894835 <br />
+							Email: <a href="mailto:info@costacloud.com" class="">dia@appolosys.com</a> <br />
+                         </address>
+                    </div><!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div> 
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">                     
+                        <p>
+                            2014 &copy; All Rights Reserved. 
+                            <a target="_blank" href="https://www.appolosys.com">Appolo Computer Pvt. Ltd.</a></p>
+                  </div>
+                    <!-- Social Links -->
+                    <div class="col-md-6">  
+                        <ul class="social-icons pull-right">
+                             <li><a href="http://facebook.com/costacloud" data-original-title="Facebook" class="rounded-x social_facebook"></a></li>
+                             <li><a href="https://twitter.com/costa_cloud" data-original-title="Twitter" class="rounded-x social_twitter"></a></li>
+                             <li><a href="https://www.linkedin.com/in/costacloud" data-original-title="Linkedin" class="rounded-x social_linkedin"></a></li>
+                             <li><a href="http://www.pinterest.com/costacloud/" data-original-title="Pinterest" class="rounded-x social_pintrest"></a></li>
+                        </ul>
+                    </div>
+                    <!-- End Social Links -->
+                </div>
+            </div> 
+        </div><!--/copyright-->
+    </div>     
+    <!--=== End Footer Version 1 ===-->
+<!-- #EndLibraryItem --><!--=== End Footer ===-->
+</div>
+<!--/wrapper-->
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/bxslider/jquery.bxslider.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        App.initBxSlider();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+<![endif]-->
+</body>
+</html>
